@@ -2,11 +2,16 @@
 
 
 ## About
-This repository is a .NET Console Application that consumes the [PokéAPI](https://pokeapi.co/) for study purposes.
+This repository is a .NET Console Application that consumes the [PokéAPI](https://pokeapi.co/) using RestSharp for study purposes.
 
 
 ## How to Use
 Open the console and navigate to the main folder of the project. Then use command:
+
+```
+dotnet restore
+```
+Then, after restoring all the dependencies, use:
 
 ```
 dotnet run
